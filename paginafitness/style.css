@@ -1,0 +1,383 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+span{
+    font-weight: bold;
+}
+
+#inicio{
+    background-image: url(imagenes/Fondos/fondo.webp);
+    background-size: cover;
+    background-position: center;
+    height: 660px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 1065px;
+    z-index: 100;
+}
+
+header a{
+    text-decoration: none;
+}
+
+h1{
+    border: 1px solid #fff; 
+    color: #fff;
+    background: #000;
+}
+
+#inicio h2{
+    background: #fff;
+    display: inline;
+    font-size: 3em;
+    padding: 5px;
+}
+
+#inicio h3{
+    background: #fff;
+    display: inline;
+    font-size: 3em;
+    padding: 5px;
+}
+
+.titulos{
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.titulos h2, h3{
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#inicio .parrafo{
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    left: 100px;
+    top: 150px;
+    height: 100px;
+    width: 90%;
+}
+
+header img{
+    height: 39px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    border: 1px solid #fff;
+    padding: 1.5px;
+}
+
+ul li a{
+    color: #fff;
+    font-size: 2em;
+    text-decoration: none;
+    transition-property: color, background;
+    transition-duration: .3s;
+}
+
+ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+
+#como-empezar h2{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.3em;
+    text-shadow: 2px 2px 3px #fa4848;
+    margin: 0;
+}
+
+.como-empezar{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+}
+
+.como-empezar img{
+    filter: invert(100%);
+    width: 60px;
+    height: 55px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#como-empezar{
+    background: linear-gradient(0.25turn, #a1a1a1, #dddddd, #a1a1a1);
+    height: 660px;
+}
+
+#como-empezar-2{
+    display: flex;
+    height: 80%;
+}
+
+#como-empezar-2 div{
+    background: rgb(21, 22, 23);
+    height: 300px;
+}
+
+#como-empezar-2 div h3{
+    color: rgb(216, 216, 216);
+    text-align: center;
+}
+
+#como-empezar-2 div p{
+    color:rgb(65, 68, 71);
+    font-size: 1.5em;
+    text-align: center;
+    transition-property: color;
+    transition-duration: .5s;
+}
+
+#como-empezar-2 div p:hover{
+    color: #fff;
+    -webkit-text-stroke: .1px #fa4848;
+
+}
+
+#ejercicios{
+    color: #fff;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+
+    )
+    ,url("imagenes/Fondos/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-ejercicios{
+    height: 150px;
+    margin: 1px;
+}
+
+.img-ejercicios-pequeña{
+    height: 240px;
+    margin: 1px;
+}
+
+.img-ejercicios:hover{
+    outline: 2px solid black;
+}
+
+.img-ejercicios-pequeña:hover{
+    outline: 2px solid black;
+}
+
+.titulo-ejercicio{
+    text-align: center;
+}
+
+.titulo-ejercicio h2{
+    background: #000;
+    color: #fff;
+    -webkit-text-stroke: .1px #616161;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: inline;
+    padding: 5px 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    position: relative;
+    top: 10px;
+}
+
+.titulo-ejercicio p{
+    color: #fff;
+    font-weight: bold;
+}
+
+.tren-superior{
+    display: flex;
+    justify-content: center;
+}
+
+.tren-inferior{
+    display: flex;
+    justify-content: center;
+}
+
+.todo-ejercicio h3{
+    text-align: center;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#suplementos{
+    height: 660px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#suplementos h2{
+    color: #f00;
+    font-size: 2.5em;
+    font-weight:900;
+    background: rgb(247, 143, 143);
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    -webkit-text-stroke: .6px #fff;
+}
+
+#suplementos h3{
+    font-size: 1.4em;
+}
+
+#suplementos p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+}
+
+.caja-suplementos{
+    display: flex;
+    justify-content: space-around;
+}
+
+#creatina{
+    background: rgb(247, 143, 143);
+    height: 430px;
+    width: 30%;
+    transition: width .5s;
+}
+
+#proteina{
+    background: rgb(247, 143, 143);
+    height: 430px;
+    width: 30%;
+    transition: width .5s;
+}
+
+#creatina:hover{
+    width: 35%;
+}
+
+#proteina:hover{
+    width: 35%;
+}
+
+.caja-suplementos img{
+    width: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+    background: rgb(236, 236, 236);
+}
+
+footer a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: font-size .5s;
+}
+
+footer a:hover{
+    font-size: 1.1em;
+}
+
+@media screen and (max-width:700px){
+
+    #inicio{
+        height: 760px;
+    }
+
+    .nav{
+        flex-direction: column;
+    }
+
+    header{
+        display: block;
+        position: static;
+    }
+
+    header img{
+        display: none;
+    }
+
+    .titulos{
+        top: 0px;
+        left: 10px;
+    }
+
+    #inicio .parrafo{
+        top: 50px;
+        left: 10px;
+    }
+
+    #como-empezar{
+        height: 760px;
+    }
+
+    #como-empezar-2 div{
+        height: 500px;
+    }
+
+    #como-empezar-2 div p{
+        color: #fff;
+    }
+
+    #ejercicios{
+        height: 760px;
+    }
+
+    .img-ejercicios{
+        height: 80px;
+        margin: 1px;
+    }
+    
+    .img-ejercicios-pequeña{
+        height: 150px;
+        margin: 1px;
+    }
+
+    #suplementos{
+        height: 760px;
+    }
+
+    #creatina{
+        height: 500px;
+    }
+    
+    #proteina{
+        height: 500px;
+    }
+}
